@@ -13,6 +13,7 @@
 		891C00491EEF8347007C90F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 891C00471EEF8347007C90F6 /* Main.storyboard */; };
 		891C004B1EEF8347007C90F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 891C004A1EEF8347007C90F6 /* Assets.xcassets */; };
 		891C004E1EEF8347007C90F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 891C004C1EEF8347007C90F6 /* LaunchScreen.storyboard */; };
+		891C00581EEF836F007C90F6 /* ZJJPracticalTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 891C00571EEF836F007C90F6 /* ZJJPracticalTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		891C004A1EEF8347007C90F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		891C004D1EEF8347007C90F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		891C004F1EEF8347007C90F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		891C00561EEF836F007C90F6 /* ZJJPracticalTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJJPracticalTool.h; sourceTree = "<group>"; };
+		891C00571EEF836F007C90F6 /* ZJJPracticalTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJJPracticalTool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		891C003D1EEF8347007C90F6 /* ZJJSystemTool */ = {
 			isa = PBXGroup;
 			children = (
+				891C00551EEF835B007C90F6 /* Tool */,
 				891C00411EEF8347007C90F6 /* AppDelegate.h */,
 				891C00421EEF8347007C90F6 /* AppDelegate.m */,
 				891C00441EEF8347007C90F6 /* ViewController.h */,
@@ -77,6 +81,15 @@
 				891C003F1EEF8347007C90F6 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		891C00551EEF835B007C90F6 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				891C00561EEF836F007C90F6 /* ZJJPracticalTool.h */,
+				891C00571EEF836F007C90F6 /* ZJJPracticalTool.m */,
+			);
+			name = Tool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +163,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				891C00581EEF836F007C90F6 /* ZJJPracticalTool.m in Sources */,
 				891C00461EEF8347007C90F6 /* ViewController.m in Sources */,
 				891C00431EEF8347007C90F6 /* AppDelegate.m in Sources */,
 				891C00401EEF8347007C90F6 /* main.m in Sources */,
